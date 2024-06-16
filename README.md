@@ -1,9 +1,10 @@
+
 # :crystal_ball: A loja da bruxa :crystal_ball:
 Esse software é um trabalho de Danielle Honória e Peter Milanez, estudantes do curso Análise e Desenvolvimento de Sistemas na Fatec São Caetano do Sul Antônio Russo.
 
 ## Índice
-- <a href="#introducao">1 Introdução</a>
-- <a href="#tecnologias">2 Tecnologias utilizadas</a>
+- <a href="#introdução">1 Introdução</a>
+- <a href="#tecnologias-utilizadas">2 Tecnologias utilizadas</a>
 - <a href="#telas">3 Telas</a>
 
 ## :pushpin: 1 Introdução
@@ -32,3 +33,4 @@ A loja da bruxa é uma loja física que atualmente não possui sistema de regist
 ### Tela de relatório de vendas
 
 ![relatorio](https://github.com/daniellehonoria/loja_bruxa/assets/111359625/97143f65-f89a-41c3-bd3a-c63e7862bc92)
+
