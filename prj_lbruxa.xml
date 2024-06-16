@@ -1,0 +1,416 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+prj_lbruxa
+</name>
+</assembly>
+<members>
+<member name="T:prj_lbruxa.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.cadastro_form">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.cadastro_form1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.cifrao">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.estoque__3_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.estoque_frm">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.fundo_relatorio">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.Logotipo_taróloga_místico_ilustrado_roxo_e_rosa__2_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.menu_admin">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.plano_financeiro">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.plano_financeiro__1_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.relat_fundo">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.relatorio_fundo">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:prj_lbruxa.My.Resources.Resources.vendas_form">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet.tab_cadastroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet.tab_cadastroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet.tab_cadastroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSetTableAdapters.tab_cadastroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(prj_lbruxa.cad_userDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(prj_lbruxa.cad_userDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(prj_lbruxa.cad_userDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSetTableAdapters.TableAdapterManager.UpdateAll(prj_lbruxa.cad_userDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet1.tab_prodDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet1.tab_prodRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet1.tab_prodRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet1TableAdapters.tab_prodTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(prj_lbruxa.cad_userDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(prj_lbruxa.cad_userDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(prj_lbruxa.cad_userDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet1TableAdapters.TableAdapterManager.UpdateAll(prj_lbruxa.cad_userDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet2.tab_vendaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet2.tab_vendaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet2.tab_vendaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet2TableAdapters.tab_vendaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(prj_lbruxa.cad_userDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(prj_lbruxa.cad_userDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(prj_lbruxa.cad_userDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet2TableAdapters.TableAdapterManager.UpdateAll(prj_lbruxa.cad_userDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet3.tab_prodDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet3.tab_prodRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet3.tab_prodRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet3TableAdapters.tab_prodTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(prj_lbruxa.cad_userDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(prj_lbruxa.cad_userDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(prj_lbruxa.cad_userDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet3TableAdapters.TableAdapterManager.UpdateAll(prj_lbruxa.cad_userDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet4.tab_cadastroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet4.tab_cadastroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet4.tab_cadastroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet4TableAdapters.tab_cadastroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(prj_lbruxa.cad_userDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(prj_lbruxa.cad_userDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(prj_lbruxa.cad_userDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:prj_lbruxa.cad_userDataSet4TableAdapters.TableAdapterManager.UpdateAll(prj_lbruxa.cad_userDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:prj_lbruxa.cad_userDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
